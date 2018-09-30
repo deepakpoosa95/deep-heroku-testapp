@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+
+  portfolio(){
+    console.log("opening portfolio...");
+    window.open("../portfolio.html");
+  }
 }

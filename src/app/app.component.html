@@ -1,12 +1,71 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+
+<div class="container-fluid text-center">
   <h1>
-    Welcome to {{ title }}!
+    <kbd>Welcome to my website</kbd>
   </h1>
+  <p><mark><code>Deepak Poosa</code></mark></p>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
- 
-</ul>
-<b align="center">Deepak Poosa</b>
+<div class="container">
+<div class="row">
+  <div class="col-sm-3"><p class="bg-primary text-center">Side Bar 1</p>
+    <h3>Menu</h3>
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Menu 1</a></li>
+        <li><a href="#">Menu 2</a></li>
+        <li><a href="#">Menu 3</a></li>
+      </ul>
+  </div>
+  <div class="col-sm-6"><p class="bg-danger text-center">Main Content</p>
+    <div class="table-responsive">
+        <table class="table table-striped table-hover table-condensed">
+          <tr>
+            <th>Movie</th>
+            <th>Language</th>
+            <th>Director</th>
+          </tr>
+          <tr>
+            <td>The Dark Knight</td>
+            <td>English</td>
+            <td>Christopher Nolan</td>
+          </tr>
+          <tr>
+            <td>The Departed</td>
+            <td>English</td>
+            <td>Martin Scorcese</td>
+          </tr>
+          <tr>
+            <td>Fight Club</td>
+            <td>English</td>
+            <td>David  Fincher</td>
+          </tr>
+        </table>
+      </div>
+      <div class="text-center">
+      <button type="button" class="btn btn-danger" (click)="portfolio()">Angular JS Application</button>
+    </div>
+  </div>
+  <div class="col-sm-3"><p class="bg-success text-center">Side Bar 2</p>
+    <h3>Login</h3>
+    <form action="console.log(form)">
+        <div class="form-group">
+            <label for="username">Username</label>
+   <input class="form-control" type="text" placeholder="Username or Email" id="username"/>
+  </div>
+   <div class="form-group">
+      <label for="password">Password</label>
+   <input class="form-control" type="password" placeholder="Password" id="password"/>
+  </div>
+   <input class="btn btn-default" type="submit"/>
+  </form>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
 
